@@ -89,7 +89,8 @@ main{
 article{
     display: flex;
     flex-flow: column nowrap;
-    width: 80%;
+    max-width: 1000px;
+    min-width: none;
     justify-content: space-between;
     gap: 20px;
     align-items: center;
@@ -97,7 +98,7 @@ article{
     margin: auto;
 }
 .card{
-    width: 80%;
+    width: 100%;
 }
 .bar{
     width: 100%;
@@ -111,7 +112,7 @@ article{
 }
 .content{
     
-    height: 500px;
+    height: 400px;
     background-color: black;
     color: white;
     display: grid;
@@ -203,6 +204,9 @@ article{
 #album15{
     background-image: url(img/gold.jpg);
     background-position: center 50%;
+}
+#content9{
+    font-size: 0.8em;
 }
 /* Footer content */
 footer{
