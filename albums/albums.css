@@ -141,22 +141,23 @@ article{
 
 #album1{
     background-image: url(img/itz-dif.jpg);
+    background-position: center 40%;
 }
 #album2{
     background-image: url(img/icy-album2.jpg);
-    background-position: center 48%;
+    background-position: center 42%;
 }
 #album3{
     background-image: url(img/itzme-album3.jpg);
-    background-position: center 43%;
+    background-position: center 38%;
 }
 #album4{
     background-image: url(img/notshy-album4.jpg);
-    background-position: center 40%;
+    background-position: center 49%;
 }
 #album5{
     background-image: url(img/notshy-album5.jpg);
-    background-position: center 27%;
+    background-position: center 46%;
 }
 #album6{
     background-image: url(img/midzy.jpg);
@@ -168,31 +169,31 @@ article{
 }
 #album8{
     background-image: url(img/mafiaenglishver.jpg);
-    background-position: center 50%;
+    background-position: center 65%;
 }
 #album9{
     background-image: url(img/crazyinlove.jpg);
-    background-position: center 22%;
+    background-position: center 50%;
 }
 #album10{
     background-image: url(img/CHECKMATE.jpg);
-    background-position: center 85%;
+    background-position: center 55%;
 }
 #album11{
-    background-image: url(img/BOYSLIKE.png);
-    background-position: center 50%;
+    background-image: url(img/album.jpg);
+    
 }
 #album12{
     background-image: url(img/cheshire.jpg);
-    background-position: center 50%;
+    background-position: center 60%;
 }
 #album13{
     background-image: url(img/cake.jpg);
-    background-position: center 33%;
+    background-position: center 50%;
 }
 #album14{
     background-image: url(img/borntobe.jpg);
-    background-position: center 90%;
+    
 }
 #album15{
     background-image: url(img/gold.jpg);
