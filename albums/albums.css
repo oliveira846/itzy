@@ -89,7 +89,7 @@ main{
 article{
     display: flex;
     flex-flow: column nowrap;
-    max-width: 80%;
+    width: 80%;
     justify-content: space-between;
     gap: 20px;
     align-items: center;
@@ -215,13 +215,17 @@ footer{
     }
 }
 
-@media (max-width: 400px) {
-    article{
-        width: 320px;
-        margin: auto;
+@media (orientation: portrait) {
+    main{
+        width: 100%;
+        
     }
-    card{
-        margin: auto;
+    article{
+        width: 100%;
+        margin: 0px;
+    }
+    .card{
+        width: 100%;
     }
     #album13{
         h2{
@@ -229,8 +233,25 @@ footer{
         }
     }
     .content{
-        display: flex;
-        flex-flow: column nowrap;
-
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        width: 100%;
+    }
+    ol{
+        column-count: 2;
+        li{
+            margin-bottom: 5px;
+        }
+    }
+    #album8{
+        ol{
+            column-count: 1;
+        }
+    }
+    .video{
+        grid-column: 1 / -1;
+    }
+    .txt{
+        grid-column: 1 / -1;
     }
 }
