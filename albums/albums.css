@@ -209,3 +209,13 @@ footer{
         padding: 2px;
     }
 }
+
+@media (orientation: portrait) {
+    article{
+        width: 320px;
+        margin: auto;
+    }
+    card{
+        margin: auto;
+    }
+}
